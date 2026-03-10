@@ -29,13 +29,5 @@ The Visitor pattern allows us to:
 | **Concrete Visitors**    | `MetroManilaFlatRateVisitor`<br>`ProvincialDistanceVisitor` | Implement different shipping policies (flat rate vs. distance-based)   |
 | **Client**               | `FurnitureShippingDemo`                | Creates furniture items, creates visitors, and applies them            |
 
-#### Key Benefits Demonstrated
 
-- **Open/Closed Principle** — open for extension (new visitors), closed for modification (furniture classes unchanged)
-- **Single Responsibility** — each class has one reason to change
-- **Double Dispatch** — correct `visitXxx()` method is called based on both the visitor type **and** the element type
-- Easy to add:
-  - New furniture types (add one method to visitor interface + implement in all visitors)
-  - New shipping rules (just create a new visitor class)
-
-### Project Structure
+### UML Diagram
