@@ -1,10 +1,10 @@
 package VisitorPattern;
-import java.util.List;           // ← this solves "cannot find symbol List"
+import java.util.List;          
 
 public class FurnitureShippingDemo {
     public static void main(String[] args) {
 
-        List<Furniture> items = List.of(   // ← change Furniture → List<Furniture>
+        List<Furniture> items = List.of(   
                 new Chair("Ergonomic Office Chair", 12.5, 0.12),
                 new Table("6-seater Dining Table", 38.0, 0.48),
                 new Sofa("3-Seater Fabric Sofa", 65.0, 1.25),
@@ -27,6 +27,6 @@ public class FurnitureShippingDemo {
             System.out.printf("%-28s → ₱%,.2f%n", item.getName(), cost);
         }
 
-        // You can easily add more visitors (Luzon, Visayas, Mindanao rates, express, etc.)
     }
+
 }
