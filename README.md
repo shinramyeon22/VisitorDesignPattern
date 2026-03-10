@@ -31,4 +31,4 @@ The Visitor pattern allows us to:
 
 
 ### UML Diagram
-![alt text](https://github.com/shinramyeon22/Automated-Waste-Management-System/blob/d06a73a2fdd1134b8a60e7271ab120fb7439dac6/_Chain%20of%20Responsibility%20.png)
+![alt text](https://github.com/shinramyeon22/VisitorDesignPattern/blob/25e4e0bb623a92edb9a7befa23642111c31adbcb/VisitorDesignPattern.png)
